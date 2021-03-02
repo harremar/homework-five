@@ -1,9 +1,11 @@
 .about {
   max-width: 980px;
   margin: 0 auto;
-  //   background-color: aqua;
+
+  // background-color: aqua;
 
   .about-top-section {
+    margin-top: 100px;
     h1 {
       font-family: prox;
       font-size: 60px;
@@ -16,6 +18,8 @@
   }
 
   .about-bottom-section {
+    margin-top: 100px;
+    margin-bottom: 180px;
     h3 {
       font-family: prox;
       font-size: 40px;
@@ -70,7 +74,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1500px) {
   .about {
     padding: 10px;
     .about-bottom-section {
