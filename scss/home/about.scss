@@ -9,7 +9,10 @@
     h1 {
       font-family: prox;
       font-size: 60px;
-      //   border-bottom: 1px black;
+      // text-decoration: underline;
+
+      border-bottom: 2px solid black;
+      max-width: 171px;
     }
     p {
       font-family: gill;
@@ -23,6 +26,8 @@
     h3 {
       font-family: prox;
       font-size: 40px;
+      border-bottom: 2px solid black;
+      max-width: 255px;
     }
 
     .client {
